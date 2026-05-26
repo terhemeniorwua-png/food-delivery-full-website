@@ -14,70 +14,151 @@
     <link rel="stylesheet" href="./src/output.css" />
   </head>
   <body>
-    <footer class="bg-[##D9D9D9]  ">
-      <div class="grid grid-cols-3 mt-20 m-16">
-        <div class="space-y-5">
-          <img src="./assets/images/oder-footer-logo.png" alt="" / class="w-52">
-          <img src="./assets/images/app-store-badges-en 1.png" alt="" / class="w-52">
-          <p class="text-[16px]">Company # 490039-445, Registered with House of companies.</p>
-        </div>
+   <footer class="bg-[#D9D9D9] w-full">
+  <!-- Top Section -->
+  <div
+    class="grid grid-cols-1 lg:grid-cols-3 gap-10 px-5 py-10 lg:px-16 lg:py-16"
+  >
+    <!-- Logo Section -->
+    <div class="space-y-5">
+      <img
+        src="./assets/images/oder-footer-logo.png"
+        alt="Footer Logo"
+        class="w-40 sm:w-52"
+      />
 
-        <div class="space-y-3 w-64 ">
-          <h3 class="font-bold">Get Exclusive Deals in your Inbox</h3>
-          <div class=" bg-[#D9D9D9] border border-[#D9D9D9] rounded-full p-1  flex justify-between  ">
-            <input type="email" placeholder="youremail@gmail.com" / class="text-[14px] ml-1">
-            <button class="bg-[#FC8A06] text-white rounded-full p-1   ">Subscribe</button>
-          </div>
-          <p class="text-[12px]">we wont spam, read our <a href=""> email policy</a></p>
-          <div class="flex items-center gap-3 font-bold text-lg">
-            <span><i class="fa-brands fa-facebook"></i></span>
-            <span><i class="fa-brands fa-instagram"></i></span>
-            <span><i class="fa-brands fa-tiktok"></i></span>
-            <span><i class="fa-brands fa-snapchat"></i></span>
-          </div>
-        </div>
+      <img
+        src="./assets/images/app-store-badges-en 1.png"
+        alt="App Store"
+        class="w-40 sm:w-52"
+      />
 
-        <div class="flex justify-between ">
+      <p class="text-sm lg:text-[16px] leading-6">
+        Company # 490039-445, Registered with House of companies.
+      </p>
+    </div>
 
-            <div class="space-y-3">
-            <h3 class="font-bold">Legal Pages</h3>
-            <ul class="leading-7">
-            <a href=""><li>Terms and conditions</li></a>
-            <a href=""><li>Privacy</li></a>
-            <a href=""><li>Cookies</li></a>
-            <a href=""><li>Modern Slavery Statement</li></a>
-            </ul>
-        </div>
+    <!-- Newsletter Section -->
+    <div class="space-y-4 max-w-md">
+      <h3 class="font-bold text-lg">
+        Get Exclusive Deals in your Inbox
+      </h3>
 
-         <div class="space-y-3">
-            <h3 class="font-bold">Important Links</h3>
-            <ul class="leading-7">
-            <a href=""><li>Get help</li></a>
-            <a href=""><li>Add your restaurant</li></a>
-            <a href=""><li>Sign up to deliver</li></a>
-            <a href=""><li>Create a business account</li></a>
-            </ul>
-        </div>
+      <div
+        class="bg-white border border-gray-300 rounded-full p-1 flex items-center justify-between overflow-hidden"
+      >
+        <input
+          type="email"
+          placeholder="youremail@gmail.com"
+          class="bg-transparent outline-none text-sm px-3 w-full"
+        />
 
-        </div>
-
-        
-
-
+        <button
+          class="bg-[#FC8A06] text-white rounded-full px-4 py-2 text-sm whitespace-nowrap"
+        >
+          Subscribe
+        </button>
       </div>
 
-      <div class=" bg-[#03081F] text-white ">
-        <div class="m-16 p-5 grid grid-cols-2 justify-between items-center  ">
-            <p>Order.uk Copyright 2024, All Rights Reserved.</p>
-        <ul class=" flex gap-10">
-            <span>Privacy Policy</span>
-            <span>Terms</span>
-            <span>Do not sell or share my personal informatio</span>
+      <p class="text-xs leading-5">
+        We won’t spam, read our
+        <a href="#" class="underline">email policy</a>
+      </p>
+
+      <div class="flex items-center gap-4 text-lg">
+        <span><i class="fa-brands fa-facebook"></i></span>
+        <span><i class="fa-brands fa-instagram"></i></span>
+        <span><i class="fa-brands fa-tiktok"></i></span>
+        <span><i class="fa-brands fa-snapchat"></i></span>
+      </div>
+    </div>
+
+    <!-- Links Section -->
+    <div
+      class="grid grid-cols-1 sm:grid-cols-2 gap-8"
+    >
+      <!-- Legal -->
+      <div class="space-y-3">
+        <h3 class="font-bold text-lg">Legal Pages</h3>
+
+        <ul class="space-y-2 text-sm lg:text-base">
+          <li>
+            <a href="#" class="hover:underline">
+              Terms and conditions
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="hover:underline">
+              Privacy
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="hover:underline">
+              Cookies
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="hover:underline">
+              Modern Slavery Statement
+            </a>
+          </li>
         </ul>
-
-        </div>
-        
       </div>
-    </footer>
+
+      <!-- Important Links -->
+      <div class="space-y-3">
+        <h3 class="font-bold text-lg">Important Links</h3>
+
+        <ul class="space-y-2 text-sm lg:text-base">
+          <li>
+            <a href="#" class="hover:underline">
+              Get help
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="hover:underline">
+              Add your restaurant
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="hover:underline">
+              Sign up to deliver
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="hover:underline">
+              Create a business account
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Section -->
+  <div class="bg-[#03081F] text-white">
+    <div
+      class="flex flex-col lg:flex-row justify-between items-center gap-5 px-5 py-6 lg:px-16"
+    >
+      <p class="text-sm text-center lg:text-left">
+        Order.uk Copyright 2024, All Rights Reserved.
+      </p>
+
+      <ul
+        class="flex flex-col sm:flex-row items-center gap-4 sm:gap-8 text-sm text-center max-sm:hidden"
+      >
+        <li>Privacy Policy</li>
+        <li>Terms</li>
+        <li>Do not sell or share my personal information</li>
+      </ul>
+    </div>
+  </div>
+</footer>
   </body>
 </html>
