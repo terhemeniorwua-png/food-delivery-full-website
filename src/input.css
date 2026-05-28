@@ -11,7 +11,7 @@
 }
 body{
     font-family: var(--font-Poppins);
-    background-color: light-dark(white, black);
+    background-color: light-dark(#f6e9e9, #3b3b3d2c);
 }
 /* color-shechme toogle */
 :has(input:checked){
