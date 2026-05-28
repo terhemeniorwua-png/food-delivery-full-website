@@ -4,15 +4,32 @@
 
 :root{
     --font-Poppins:var(--font-Poppins);
+    color-scheme: light dark;
 }
 @theme{
     --font-Poppins: "Poppins", sans-serif;
 }
 body{
     font-family: var(--font-Poppins);
+    background-color: light-dark(white, black);
+}
+/* color-shechme toogle */
+:has(input:checked){
+    color-scheme: light;
 }
 /* 
 Yellow color : #FC8A06;
 Green color: #028643;
 dark-blue color: #03081F
 */
+@media screen and (min-width:1000px){
+    .bg-5{
+    background-image: url(../assets/images/Untitled-1-1.png);
+    background-repeat: no-repeat;
+    background-position-x: 20em;
+    background-size: 100vh;
+}
+}
+.bg-5{
+    background-color: #03081F; 
+}

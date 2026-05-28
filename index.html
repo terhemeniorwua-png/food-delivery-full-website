@@ -54,8 +54,13 @@
             </nav>
             <div class="min-lg:hidden text-5xl border-l-2 border-gray-300 p-3"><i class="fa-solid fa-bars"></i></div>
         </div>
+
+        <!-- color scheme toogle -->
+      <div class="flex pt-2 justify-end">
+        <label for="toggle" class="text-[12px] font-black">Light mode</label><input id="toggle" type="checkbox" class="border ml-2">
+      </div>
     </header>
-    <main class="px[5%]">
+    <main>
         <section class="lg:hidden">
             <div class="grid grid-cols-2">
                 <div class="bg-[#FC8A06] py-4 font-semibold text-xl flex justify-center items-center gap-5">
@@ -65,20 +70,52 @@
                 <img src="assets/icons/Full Shopping Basket.png" alt=""><span>GBP 79.89</span>
             </div>
             </div>
-            <p class="flex justify-end items-center gap-2 py-2 pr-5"><img src="assets/icons/Location.png" alt=""><span>Lution Street, N4G-00.....</span></p>
+            <p class="flex justify-end items-center gap-2 py-2 pr-5"><img src="assets/icons/Location.png" alt=""><span>Lution Street, N4Gb-00.....</span></p>
         </section>
-        <section class="">
-            <div class="text-center text-white bg-[#03081F] pb-10">
-                <small>Order Restaurant food, takeaway and groceries.</small>
-                <h2 class="text-4xl font-black">Feast Your Senses,</h2>
-                <h2 class="text-[#FC8A06] text-4xl font-black">Fast and Fresh</h2>
+        <!-- hero section -->
+        <section class="md:pt-5 lg:pt-10">
+            <div class="max-md:text-center md:pl-10 lg:grid lg:grid-cols-2 bg-5 text-white items-center lg:pt-10 max-md:py-5 relative">
+                <div class="leading-10">
+                  <small>Order Restaurant food, takeaway and groceries.</small>
+                <h2 class="text-4xl lg:text-5xl font-black">Feast Your Senses,</h2>
+                <h2 class="text-[#FC8A06] text-4xl lg:text-5xl font-black">Fast and Fresh</h2>
                 <small>Enter a postcode to see what we deliver</small>
-                <div class="flex bg-white p-2 w-[90%] m-auto rounded-3xl">
+                <div class="flex bg-white max-md:p-2 max-md:w-[90%] md:w-[70%] max-md:m-auto rounded-3xl lg:justify-between">
                     <input type="text" class="outline-0 text-black pl-2 text-xl" placeholder="e.g EC4R 3TE">
-                    <div class="text-[#FC8A06] rounded-full">
-                        <p class="bg-[#03081F] p-1 flex justify-center items-center rounded-full"><i class="fa-solid fa-chevron-right text-2xl text-[#FC8A06]"></i></p>
+                    <div class="bg-[#FC8A06] rounded-full">
+                        <p class="max-md:bg-[#03081F] md:px-5 bg-[#FC8A06] p-1 flex justify-center items-center rounded-full text-white"> <span class="max-lg:hidden">Search</span><i class="fa-solid fa-chevron-right text-2xl text-[#FC8A06] md:hidden"></i></p>
                     </div>
                 </div>
+                 </div>
+                    <!-- yellow side -->
+                      <div class="max-lg:hidden rounded-tl-full bg-[rgb(252,138,6)] p-10 pl-36  flex flex-col gap-10 items-center">
+                      <div class="bg-white w-[60%] text-black text-[12px] font-black px-2 rounded-lg py-2">
+                      <div class="flex justify-between items-center ">
+                          <img src="assets/images/LOGO 1.png" alt="" class="w-[15%]">
+                          <p class="font-light">now</p>
+                      </div>
+                        <h3>We've Recieved your order!</h3>
+                        <p class="font-light">Awaiting Restaurant acceptance</p>
+                      </div>
+                      <div class="bg-white w-[60%] text-black text-[12px] font-black px-2 rounded-lg py-2 ml-44 ">
+                      <div class="flex justify-between items-center ">
+                          <img src="assets/images/LOGO 1.png" alt="" class="w-[15%]">
+                          <p class="font-light">now</p>
+                      </div>
+                        <h3>Order Accepted!</h3>
+                        <p class="font-light">Your order will be delivered shortly</p>
+                      </div>
+                      <div class="bg-white w-[60%] text-black text-[12px] font-black px-2 rounded-lg py-2 ml-36 ">
+                      <div class="flex justify-between items-center ">
+                          <img src="assets/images/LOGO 1.png" alt="" class="w-[15%]">
+                          <p class="font-light">now</p>
+                      </div>
+                        <h3>Your rider's nearby</h3>
+                        <p class="font-light">They're almost there-get ready!</p>
+                      </div>
+                    </div>
+                    <img src="assets/images/Untitled-2 1.png" alt="" class="absolute right-[23%] w-[30%] max-md:hidden">
+                  </div> 
             </div>
         </section>
     </main>
