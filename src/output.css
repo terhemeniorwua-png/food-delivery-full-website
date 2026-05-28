@@ -198,8 +198,16 @@
   .grid {
     display: grid;
   }
+<<<<<<< HEAD
   .w-40 {
     width: calc(var(--spacing) * 40);
+=======
+  .hidden {
+    display: none;
+  }
+  .h-28 {
+    height: calc(var(--spacing) * 28);
+>>>>>>> a2866c2 (hid a section)
   }
   .w-\[3\%\] {
     width: 3%;
