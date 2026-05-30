@@ -7,11 +7,9 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-red-300: oklch(80.8% 0.114 19.571);
     --color-red-500: oklch(63.7% 0.237 25.331);
     --color-red-600: oklch(57.7% 0.245 27.325);
     --color-amber-600: oklch(66.6% 0.179 58.318);
-    --color-yellow-300: oklch(90.5% 0.182 98.111);
     --color-green-700: oklch(52.7% 0.154 150.069);
     --color-gray-300: oklch(87.2% 0.01 258.338);
     --color-gray-400: oklch(70.7% 0.022 261.325);
@@ -815,9 +813,39 @@
       padding-left: calc(var(--spacing) * 10);
     }
   }
+  .lg\:absolute {
+    @media (width >= 64rem) {
+      position: absolute;
+    }
+  }
+  .lg\:relative {
+    @media (width >= 64rem) {
+      position: relative;
+    }
+  }
+  .lg\:right-28 {
+    @media (width >= 64rem) {
+      right: calc(var(--spacing) * 28);
+    }
+  }
   .lg\:bottom-5 {
     @media (width >= 64rem) {
       bottom: calc(var(--spacing) * 5);
+    }
+  }
+  .lg\:-z-10 {
+    @media (width >= 64rem) {
+      z-index: calc(10 * -1);
+    }
+  }
+  .lg\:z-10 {
+    @media (width >= 64rem) {
+      z-index: 10;
+    }
+  }
+  .lg\:z-20 {
+    @media (width >= 64rem) {
+      z-index: 20;
     }
   }
   .lg\:mt-2 {
@@ -845,14 +873,19 @@
       height: auto;
     }
   }
+  .lg\:w-\[35\%\] {
+    @media (width >= 64rem) {
+      width: 35%;
+    }
+  }
   .lg\:w-\[50\%\] {
     @media (width >= 64rem) {
       width: 50%;
     }
   }
-  .lg\:w-full {
+  .lg\:w-\[135\%\] {
     @media (width >= 64rem) {
-      width: 100%;
+      width: 135%;
     }
   }
   .lg\:grid-cols-2 {
@@ -888,6 +921,24 @@
   .lg\:gap-20 {
     @media (width >= 64rem) {
       gap: calc(var(--spacing) * 20);
+    }
+  }
+  .lg\:space-y-5 {
+    @media (width >= 64rem) {
+      :where(& > :not(:last-child)) {
+        --tw-space-y-reverse: 0;
+        margin-block-start: calc(calc(var(--spacing) * 5) * var(--tw-space-y-reverse));
+        margin-block-end: calc(calc(var(--spacing) * 5) * calc(1 - var(--tw-space-y-reverse)));
+      }
+    }
+  }
+  .lg\:space-y-10 {
+    @media (width >= 64rem) {
+      :where(& > :not(:last-child)) {
+        --tw-space-y-reverse: 0;
+        margin-block-start: calc(calc(var(--spacing) * 10) * var(--tw-space-y-reverse));
+        margin-block-end: calc(calc(var(--spacing) * 10) * calc(1 - var(--tw-space-y-reverse)));
+      }
     }
   }
   .lg\:rounded-3xl {
@@ -930,9 +981,14 @@
       padding-top: calc(var(--spacing) * 10);
     }
   }
-  .lg\:pl-7 {
+  .lg\:pr-5 {
     @media (width >= 64rem) {
-      padding-left: calc(var(--spacing) * 7);
+      padding-right: calc(var(--spacing) * 5);
+    }
+  }
+  .lg\:pr-10 {
+    @media (width >= 64rem) {
+      padding-right: calc(var(--spacing) * 10);
     }
   }
   .lg\:pl-10 {
@@ -940,9 +996,9 @@
       padding-left: calc(var(--spacing) * 10);
     }
   }
-  .lg\:pl-72 {
+  .lg\:text-center {
     @media (width >= 64rem) {
-      padding-left: calc(var(--spacing) * 72);
+      text-align: center;
     }
   }
   .lg\:text-left {
@@ -966,6 +1022,12 @@
     @media (width >= 64rem) {
       font-size: var(--text-base);
       line-height: var(--tw-leading, var(--text-base--line-height));
+    }
+  }
+  .lg\:text-lg {
+    @media (width >= 64rem) {
+      font-size: var(--text-lg);
+      line-height: var(--tw-leading, var(--text-lg--line-height));
     }
   }
   .lg\:text-\[16px\] {
