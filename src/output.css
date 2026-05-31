@@ -206,6 +206,9 @@
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
+  .top-2 {
+    top: calc(var(--spacing) * 2);
+  }
   .right-16 {
     right: calc(var(--spacing) * 16);
   }
@@ -257,9 +260,6 @@
   .grid {
     display: grid;
   }
-  .table {
-    display: table;
-  }
   .h-28 {
     height: calc(var(--spacing) * 28);
   }
@@ -302,12 +302,6 @@
   .max-w-md {
     max-width: var(--container-md);
   }
-  .border-collapse {
-    border-collapse: collapse;
-  }
-  .resize {
-    resize: both;
-  }
   .grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
@@ -319,9 +313,6 @@
   }
   .flex-col {
     flex-direction: column;
-  }
-  .flex-row-reverse {
-    flex-direction: row-reverse;
   }
   .items-center {
     align-items: center;
@@ -649,10 +640,6 @@
     --tw-shadow: 0 25px 50px -12px var(--tw-shadow-color, rgb(0 0 0 / 0.25));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
-  }
   .outline-0 {
     outline-style: var(--tw-outline-style);
     outline-width: 0px;
@@ -813,11 +800,6 @@
       padding-left: calc(var(--spacing) * 10);
     }
   }
-  .lg\:absolute {
-    @media (width >= 64rem) {
-      position: absolute;
-    }
-  }
   .lg\:relative {
     @media (width >= 64rem) {
       position: relative;
@@ -831,21 +813,6 @@
   .lg\:bottom-5 {
     @media (width >= 64rem) {
       bottom: calc(var(--spacing) * 5);
-    }
-  }
-  .lg\:-z-10 {
-    @media (width >= 64rem) {
-      z-index: calc(10 * -1);
-    }
-  }
-  .lg\:z-10 {
-    @media (width >= 64rem) {
-      z-index: 10;
-    }
-  }
-  .lg\:z-20 {
-    @media (width >= 64rem) {
-      z-index: 20;
     }
   }
   .lg\:mt-2 {
@@ -871,11 +838,6 @@
   .lg\:h-auto {
     @media (width >= 64rem) {
       height: auto;
-    }
-  }
-  .lg\:w-\[35\%\] {
-    @media (width >= 64rem) {
-      width: 35%;
     }
   }
   .lg\:w-\[50\%\] {
@@ -908,6 +870,11 @@
       flex-direction: row;
     }
   }
+  .lg\:flex-row-reverse {
+    @media (width >= 64rem) {
+      flex-direction: row-reverse;
+    }
+  }
   .lg\:justify-between {
     @media (width >= 64rem) {
       justify-content: space-between;
@@ -932,13 +899,9 @@
       }
     }
   }
-  .lg\:space-y-10 {
+  .lg\:overflow-hidden {
     @media (width >= 64rem) {
-      :where(& > :not(:last-child)) {
-        --tw-space-y-reverse: 0;
-        margin-block-start: calc(calc(var(--spacing) * 10) * var(--tw-space-y-reverse));
-        margin-block-end: calc(calc(var(--spacing) * 10) * calc(1 - var(--tw-space-y-reverse)));
-      }
+      overflow: hidden;
     }
   }
   .lg\:rounded-3xl {
@@ -979,11 +942,6 @@
   .lg\:pt-10 {
     @media (width >= 64rem) {
       padding-top: calc(var(--spacing) * 10);
-    }
-  }
-  .lg\:pr-5 {
-    @media (width >= 64rem) {
-      padding-right: calc(var(--spacing) * 5);
     }
   }
   .lg\:pr-10 {
@@ -1069,6 +1027,9 @@ body {
 }
 .bg-5 {
   background-color: #03081F;
+}
+.bg-2 {
+  background: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5), url(../assets/images/Rectangle-11-8.png));
 }
 @property --tw-space-y-reverse {
   syntax: "*";
