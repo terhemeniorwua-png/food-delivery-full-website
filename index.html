@@ -259,57 +259,78 @@
             </section>
             <!-- partnering section -->
              <section class="px-2">
-                <div class="pt-10 lg:grid lg:grid-cols-2">
-                  <div class="bg-2 h-52 relative">
-                        <p class="bg-white absolute p-2 top-0 left-[5%] font-black">Earn more with lower fees</p>
+                <div class="pt-10 lg:grid lg:grid-cols-2 lg:gap-10">
+                  <div class="bg-2 h-52 border relative">
+                        <p class="bg-white absolute p-2 top-0 left-[5%] scheme-light-dark font-black">Earn more with lower fees</p>
                     <div class="absolute bottom-5 left-[5%]">
                         <h2 class="text-[#FC8A06] font-bold">Signup as a business</h2>
-                        <p class="text-white font-black text-2xl">Partner with us</p>
-                        <button type="button" class="bg-[#FC8A06] text-white p-1 px-5 rounded-3xl text-[12px]">Get Started</button>
+                        <p class="font-black text-2xl">Partner with us</p>
+                        <button type="button" class="bg-[#FC8A06] text-white p-1 lg:p-2 lg:px-8 lg:text-[15px] px-5 rounded-3xl text-[12px]">Get Started</button>
                     </div>
                     </div>
-                      <div class="mt-5 bg h-52 relative">
+                      <div class="mt-5 lg:mt-0 border bg h-52 relative">
                         <p class="bg-white absolute p-2 top-0 left-[5%] font-black">Avail exclusive perks</p>
                     <div class="absolute bottom-5 left-[5%]">
                         <h2 class="text-[#FC8A06] font-bold">Signup as a rider</h2>
-                        <p class="text-white font-black text-2xl">Ride with us</p>
-                        <button type="button" class="bg-[#FC8A06] text-white p-1 px-5 rounded-3xl text-[12px]">Get Started</button>
+                        <p class=" font-black text-2xl">Ride with us</p>
+                        <button type="button" class="bg-[#FC8A06] text-white p-1 lg:p-2 lg:px-8 lg:text-[15px] px-5 rounded-3xl text-[12px]">Get Started</button>
                     </div>
                     </div>
                 </div>
-                <p class="text-2xl text-center py-5 font-black"><b>Know more about us!</b></p>
+                <div class="grid grid-cols-3 justify-between items-center pt-20">
+                  <p class="text-2xl text-center py-5 font-black"><b>Know more about us!</b></p>
+                  <ul class="col-span-2 list-none flex justify-center items-center gap-10 max-md:hidden">
+                    <li class="text-[15px]"><a href="#" class="focus">Frequent Questions</a></li>
+                    <li class="text-[15px]"><a href="#" class="focus">Who we are?</a></li>
+                    <li class="text-[15px]"><a href="#" class="focus">Partner Program</a></li>
+                    <li class="text-[15px]"><a href="#" class="focus">Help & Support</a></li>
+                  </ul>
+                  
+                </div>
              </section>
              <!-- How to apply -->
               <section>
-                <div class="text-center font-black space-y-5">
+                <div class="text-center font-black space-y-5 md:hidden">
                     <h2 class="bg-[#FC8A06] p-3 px-5 rounded-3xl w-[80%] m-auto">How does Order.UK work?</h2>
                     <p class="pt-5">What payment methods are accepted?</p>
                     <p>Can I track my order in real-time?</p>
                     <p class="w-[80%] m-auto">Are there any soecial discounts or promotions available?</p>
                     <p class="pt-5">Is Order.UK available in my area?</p>
                 </div>
-                <div class="bg-[#03081F] flex flex-col gap-5 rounded-lg mx-2 mt-10 py-[10%]">
-                    <div class="bg-[#D9D9D9] text-center w-[70%] m-auto leading-5 rounded-lg p-5">
+                <div class="bg-[#03081F] md:lg:grid md:lg:grid-cols-3">
+                     <div class="text-center font-black space-y-5 lg:border-0 lg:border-r-2 lg:border-[#7b78782f] lg:pt-10 md-hidden">
+                    <h2 class="bg-[#FC8A06] p-3 px-5 rounded-3xl w-[80%] m-auto">How does Order.UK work?</h2>
+                    <p class="pt-5 text-white">What payment methods are accepted?</p>
+                    <p class="text-white">Can I track my order in real-time?</p>
+                    <p class="w-[80%] text-white m-auto">Are there any soecial discounts or promotions available?</p>
+                    <p class="pt-5 text-white">Is Order.UK available in my area?</p>
+                </div>
+                <div class="lg:col-span-2 lg:pb-[5%] lg:px-5">
+                <div class=" flex flex-col gap-5 rounded-lg lg:grid lg:grid-cols-3 mx-2 mt-10 py-[10%] text-black lg:py-[0%]">
+                    <div class="bg-[#D9D9D9] text-center w-[70%] md:w-auto m-auto leading-5 rounded-lg p-5">
                         <h2 class="font-black">Place an Order!</h2>
                         <img src="assets/images/order-food 1.png" alt="" class="m-auto py-2">
                         <p>Place order through our website or Mobile app</p>
                     </div>
-                     <div class="bg-[#D9D9D9] text-center w-[70%] m-auto leading-5 rounded-lg p-5">
+                     <div class="bg-[#D9D9D9]  md:w-auto text-center w-[70%] m-auto leading-5 rounded-lg p-5">
                         <h2 class="font-black">Track Progress</h2>
                         <img src="assets/images/food 1.png" alt="" class="m-auto py-5">
                         <p>You can track your order status with delivery time</p>
                     </div>
-                      <div class="bg-[#D9D9D9] text-center w-[70%] m-auto leading-5 rounded-lg p-5">
+                      <div class="bg-[#D9D9D9] text-center w-[70%]  md:w-auto m-auto leading-5 rounded-lg p-5">
                         <h2 class="font-black">Get your Order!</h2>
                         <img src="assets/images/order 1.png" alt="" class="m-auto py-5">
                         <p>Receive your order at a lighting fast speed!</p>
                     </div>
-                    <p class="text-white text-center px-4">
+                </div>
+                    <p class="text-white text-center px-4 lg:pt-3
+                     md:w-auto">
                         Order.UK simplifies the food ordering process. Browse through our diverse menu, select your favorite dishes, and proceed to checkout Your delicious meal will be on its to your doorstep in no time!
                     </p>
                 </div>
+                </div>
                 <!-- registration part -->
-                <div class="bg-[#FC8A06] flex flex-col items-center gap-5 rounded-lg mx-2 mt-10 py-[10%] text-center text-white">
+                <div class="bg-[#FC8A06] flex flex-col lg:flex-row lg:justify-center items-center gap-5 rounded-lg mx-2 mt-10 py-[10%] lg:py-[5%] text-center text-white">
                     <div>
                         <p class="text-5xl">546+</p>
                         <h5 class="font-black text-xl">Registered Rider</h5>
