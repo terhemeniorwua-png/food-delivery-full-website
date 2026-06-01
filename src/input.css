@@ -34,8 +34,22 @@ dark-blue color: #03081F
     background-color: #03081F; 
 }
 .bg-2{
-    background: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5), url(../assets/images/Rectangle-11-8.png));
+    background: url(assets/images/Untitled-1-1.png);
 }
+
+.bg-4{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgb(0,0,0,0.5)), url(../assets/images/Rectangle-8-.png);
+    height:44vh
+}
+  .bg-6{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgb(0,0,0,0.5)), url(../assets/images/Rectangle8--.png);
+    height:44vh
+}
+ .bg-8{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgb(0,0,0,0.5)), url(../assets/images/Rectangle8--.png);
+    height:44vh
+}
+
 .focus:focus{
     border-width: 1px;
     border-color: rgb(255, 72, 0);
