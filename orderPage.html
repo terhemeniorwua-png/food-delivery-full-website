@@ -1,336 +1,429 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>order-page</title>
-    <link rel="stylesheet" href="src/output.css">
-</head>
-<body>
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <body>
     <section class="px-[5%]">
-    <header>
+      <header>
         <!-- header -->
-        <div class="grid grid-cols-2 items-center lg:tracking-wider max-lg:hidden">
+        <div
+          class="grid grid-cols-2 items-center lg:tracking-wider max-lg:hidden"
+        >
+          <div class="flex items-center gap-2">
+            <img src="assets/icons/🌟.png" alt="" class="w-[3%]" />
+            <p class="text-[10px] font-bold">
+              Get 5% Off your first order,
+              <span class="text-[#FC8A06]">Promo:ORDERS</span>
+            </p>
+          </div>
+          <div class="flex justify-center gap-2 items-center">
             <div class="flex items-center gap-2">
-                <img src="assets/icons/🌟.png" alt="" class="w-[3%]">
-                <p class="text-[10px] font-bold">Get 5% Off your first order, <span class="text-[#FC8A06]">Promo:ORDERS</span></p>
-            </div>
-            <div class="flex justify-center gap-2 items-center">
-               <div class="flex items-center gap-2">
-                <img src="assets/icons/Location.png" alt="" class="w-[5%]">
-                <p class="text-[10px] font-bold">Regent Street, A4,A4201,London<span class="text-[#FC8A06]">Change Location</span></p>
+              <img src="assets/icons/Location.png" alt="" class="w-[5%]" />
+              <p class="text-[10px] font-bold">
+                Regent Street, A4,A4201,London<span class="text-[#FC8A06]"
+                  >Change Location</span
+                >
+              </p>
             </div>
             <div class="bg-[#028643] py-2 rounded-b-lg flex items-center">
-                <div class="px-2"> 
-                    <img src="assets/icons/Full Shopping Basket.png" alt="" class="w-[50%] m-auto">
-                </div>
-                <div class="px-2 text-sm border-0 border-x-2 border-x-gray-400">
-                    <p class="text-white font-bold text-center">23 items</p>
-                </div>
-                  <div class="px-2 text-sm">
-                    <p class="text-white font-bold text-center">GBP 79.89</p>
-                </div>
-                 <div  class="px-2 border-0 border-x-2 border-x-gray-400">
-                    <img src="assets/icons/Forward Button.png" alt="" class="w-[50%] m-auto">
-                </div>
+              <div class="px-2">
+                <img
+                  src="assets/icons/Full Shopping Basket.png"
+                  alt=""
+                  class="w-[50%] m-auto"
+                />
+              </div>
+              <div class="px-2 text-sm border-0 border-x-2 border-x-gray-400">
+                <p class="text-white font-bold text-center">23 items</p>
+              </div>
+              <div class="px-2 text-sm">
+                <p class="text-white font-bold text-center">GBP 79.89</p>
+              </div>
+              <div class="px-2 border-0 border-x-2 border-x-gray-400">
+                <img
+                  src="assets/icons/Forward Button.png"
+                  alt=""
+                  class="w-[50%] m-auto"
+                />
+              </div>
             </div>
-            </div>
+          </div>
         </div>
         <!-- nav section -->
         <div class="flex justify-between items-center pt-5 text-[14px]">
-           <div class=""> <img src="assets/images/LOGO 1.png" alt="" class="max-md:w-36 lg:w-[50%]"></div>
-            <nav class="max-lg:hidden">
-                <ul class="flex justify-between gap-10 lg:gap-20 items-center">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Browse Menu</a></li>
-                    <li><a href="#">Special Offers</a></li>
-                    <li><a href="restaurant.html">Restaurants</a></li>
-                    <li><a href="track.html">Track Order</a></li>
-                     <button class="flex bg-[#03081F] items-center rounded-3xl text-[12px] font-bold p-2 px-5 gap-2 text-white"><img src="assets/icons/Male User.png" alt=""><a href="#"> <span>Login/SignUp</span></a></button>
-                </ul>
-            </nav>
-            <div class="min-lg:hidden text-5xl border-l-2 border-gray-300 p-3"><i class="fa-solid fa-bars"></i></div>
+          <div class="">
+            <img
+              src="assets/images/LOGO 1.png"
+              alt=""
+              class="max-md:w-36 lg:w-[50%]"
+            />
+          </div>
+          <nav class="max-lg:hidden">
+            <ul class="flex justify-between gap-10 lg:gap-20 items-center">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">Browse Menu</a></li>
+              <li><a href="#">Special Offers</a></li>
+              <li><a href="restaurant.html">Restaurants</a></li>
+              <li><a href="track.html">Track Order</a></li>
+              <button
+                class="flex bg-[#03081F] items-center rounded-3xl text-[12px] font-bold p-2 px-5 gap-2 text-white"
+              >
+                <img src="assets/icons/Male User.png" alt="" /><a href="#">
+                  <span>Login/SignUp</span></a
+                >
+              </button>
+            </ul>
+          </nav>
+          <div class="min-lg:hidden text-5xl border-l-2 border-gray-300 p-3">
+            <i class="fa-solid fa-bars"></i>
+          </div>
         </div>
-    </header>
+      </header>
     </section>
     <!-- main -->
     <main class="px-[5%]">
-        <section>
-            <div class="grid grid-cols-2">
-                <div class="bg-[#FC8A06] py-4 font-semibold text-xl flex justify-center items-center gap-5">
-                <img src="assets/images/Ellipse 9.png" alt=""><span>Aycan</span>
-            </div>
-             <div class="bg-[#028643] font-bold text-white text-xl flex justify-center items-center gap-5">
-                <img src="assets/icons/Full Shopping Basket.png" alt=""><span>GBP 79.89</span>
-            </div>
-            </div>
-            <p class="flex justify-end items-center gap-2 py-2 pr-5"><img src="assets/icons/Location.png" alt=""><span>Lution Street, N4G-00.....</span></p>
-        </section>
+      <section>
+        <div class="grid grid-cols-2">
+          <div
+            class="bg-[#FC8A06] py-4 font-semibold text-xl flex justify-center items-center gap-5"
+          >
+            <img src="assets/images/Ellipse 9.png" alt="" /><span>Aycan</span>
+          </div>
+          <div
+            class="bg-[#028643] font-bold text-white text-xl flex justify-center items-center gap-5"
+          >
+            <img src="assets/icons/Full Shopping Basket.png" alt="" /><span
+              >GBP 79.89</span
+            >
+          </div>
+        </div>
+        <p class="flex justify-end items-center gap-2 py-2 pr-5">
+          <img src="assets/icons/Location.png" alt="" /><span
+            >Lution Street, N4G-00.....</span
+          >
+        </p>
+      </section>
 
-        <!-- hero section.. -->
-         <section>
-          <div class="bg-cover bg-center h-96  flex max-md:flex-col-reverse justify-between px-4  lg:p-16 " style="background-image: url(./assets/images/bg.png);" >
-
-            <div class="lg:mt-14 lg:space-y-3">
-              <p class="lg:text-sm text-[12px] text-[#03081F]">Desi Flavours with a blend of Italian aesthetics!</p>
-              <h2 class="font-bold lg:text-4xl text-2xl text-[#03081F]">Tandoori Pizza London</h2>
-              <div class="grid items-center lg:flex">
-                <button class="border rounded-full w-52 bg-[#03081F] text-white  p-2 text-center mx-2 my-2 flex gap-2 items-center">
-                  <img src="./assets/icons/note.png" alt="" class="h-5">
-                  <span class="text-sm">Minimum Order: 12 GBP</span>
-                </button>
-                <button class="border rounded-full w-52 bg-[#03081F] text-white  p-2 text-center mx-2 my-2 flex gap-2 items-center">
-                  <img src="./assets/icons/Motocross.png" alt="" class="h-5">
-                  <span class="text-sm">Delivery in 20-25 Minutes</span>
-                </button>
-
-                
-              </div>
-            </div>
-
-            <div class="">
-              <img src="./assets/images/bg 44.png" alt="" class="lg:w-120 lg:h-64 w-52 h-28 max-md:mt-40 m-auto  ">
-              <img src="./assets/images/Rectangle bg 64.png" alt="" class="lg:h-28 h-11 relative lg:bottom-28 lg:right-10 bottom-10 ">
-              <div class="lg:relative lg:bottom-20 lg:right-168 bg-[#FC8A06] mb-4  rounded-r-lg w-60 p-1">
-                  <span class="flex gap-1 items-center">
-                    <img src="./assets/icons/Clock.png" alt="">
-                    <b>Open until 3:00 AM</b>
-                  </span>
-                </div>
+      <!-- hero section.. -->
+      <section>
+        <div
+          class="bg-cover bg-center h-96 flex max-md:flex-col-reverse justify-between px-4 lg:p-16"
+          style="background-image: url(./assets/images/bg.png)"
+        >
+          <div class="lg:mt-14 lg:space-y-3">
+            <p class="lg:text-sm text-[12px] text-[#03081F]">
+              Desi Flavours with a blend of Italian aesthetics!
+            </p>
+            <h2 class="font-bold lg:text-4xl text-2xl text-[#03081F]">
+              Tandoori Pizza London
+            </h2>
+            <div class="grid items-center lg:flex">
+              <button
+                class="border rounded-full w-52 bg-[#03081F] text-white p-2 text-center mx-2 my-2 flex gap-2 items-center"
+              >
+                <img src="./assets/icons/note.png" alt="" class="h-5" />
+                <span class="text-sm">Minimum Order: 12 GBP</span>
+              </button>
+              <button
+                class="border rounded-full w-52 bg-[#03081F] text-white p-2 text-center mx-2 my-2 flex gap-2 items-center"
+              >
+                <img src="./assets/icons/Motocross.png" alt="" class="h-5" />
+                <span class="text-sm">Delivery in 20-25 Minutes</span>
+              </button>
             </div>
           </div>
-         </section>
 
-         <!-- Order from Tandoori Pizza London -->
-          <section>
-            <div class="lg:mt-10 mt-5 flex max-md:flex-col-reverse  items-center lg:justify-between">
-              <h2 class="font-bold lg:text-2xl text-[#000000] mt-5">Order from Tandoori Pizza London</h2>
-              <div class="bg-white border border-gray-300 rounded-full p-2 px-4 flex items-center lg:w-56  overflow-hidden">
-                <span class="max-sm:hidden"><i class="fa-solid fa-magnifying-glass"></i></span>
-                <input type="text" placeholder="Search from menu..." class="bg-transparent outline-none text-sm px-3  w-full">
-              </div>
+          <div class="">
+            <img
+              src="./assets/images/bg 44.png"
+              alt=""
+              class="lg:w-120 lg:h-64 w-52 h-28 max-md:mt-40 m-auto"
+            />
+            <img
+              src="./assets/images/Rectangle bg 64.png"
+              alt=""
+              class="lg:h-28 h-11 relative lg:bottom-28 lg:right-10 bottom-10"
+            />
+            <div
+              class="lg:relative lg:bottom-20 lg:right-168 bg-[#FC8A06] mb-4 rounded-r-lg w-60 p-1"
+            >
+              <span class="flex gap-1 items-center">
+                <img src="./assets/icons/Clock.png" alt="" />
+                <b>Open until 3:00 AM</b>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Order from Tandoori Pizza London -->
+      <section>
+        <div
+          class="lg:mt-10 mt-5 flex max-md:flex-col-reverse items-center lg:justify-between"
+        >
+          <h2 class="font-bold lg:text-2xl text-[#000000] mt-5">
+            Order from Tandoori Pizza London
+          </h2>
+          <div
+            class="bg-white border border-gray-300 rounded-full p-2 px-4 flex items-center lg:w-56 overflow-hidden"
+          >
+            <span class="max-sm:hidden"
+              ><i class="fa-solid fa-magnifying-glass"></i
+            ></span>
+            <input
+              type="text"
+              placeholder="Search from menu..."
+              class="bg-transparent outline-none text-sm px-3 w-full"
+            />
+          </div>
+        </div>
+
+        <!-- grid -->
+        <div class="lg:flex lg:gap-16 lg:mt-5 grid grid-cols-1 space-y-3">
+          <!-- side-bar -->
+          <div
+            class="lg:border lg:border-gray-300 rounded-lg lg:w-52 lg:h-screen"
+          >
+            <div
+              class="max-sm:flex max-sm:justify-between max-sm:mt-5 max-sm:border-2 max-sm:border-gray-300 max-sm:p-2 max-sm:rounded-lg lg:w-32"
+            >
+              <span class="flex items-center gap-2 lg:p-4 lg:mt-10">
+                <img src="./assets/icons/note.png" alt="" class="w-7" />
+                <h1 class="font-bold lg:text-2xl">Menu</h1>
+              </span>
+
+              <span class="flex items-center gap-7 lg:hidden">
+                <h3 class="text-sm">Pizzas</h3>
+                <img src="./assets/icons/Clock.png" alt="" class="w-4" />
+              </span>
             </div>
 
-            <!-- grid -->
-             <div class="grid grid-cols-3 justify-between">
+            <div class="max-sm:hidden">
+              <ul class="space-y-5 px-4 text-[#282828] font-bold">
+                <li class="bg-[#03081F] text-white p-2">Pizzas</li>
+                <li>Garlic Bread</li>
+                <li>Garlic Bread</li>
+                <li>Garlic Bread</li>
+                <li>Garlic Bread</li>
+                <li>Garlic Bread</li>
+                <li>Garlic Bread</li>
+                <li>Garlic Bread</li>
+                <li>Garlic Bread</li>
+                <li>Garlic Bread</li>
+                <li>Garlic Bread</li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of side bar -->
 
-              <!-- side-bar -->
-              <div class=" lg:border lg:border-gray-300 rounded-lg lg:w-60 lg:h-screen lg:mt-5">
-                <div class="max-sm:flex max-sm:justify-between max-sm:mt-5 max-sm:border-2 max-sm:border-gray-300 max-sm:p-2 max-sm:rounded-lg lg:w-32 ">
+          <!-- middle bar -->
+          <div class="lg:mt-10">
+            <div class="flex justify-between items-center">
+              <span class="font-bold lg:text-2xl">Pizzas</span>
+              <button
+                class="bg-transparent border border-gray-300 px-1 rounded-full flex gap-3 items-center"
+              >
+                <span class="text-sm">Sort by Pricing</span>
+                <img src="./assets/icons/Clock.png" alt="" class="w-9" />
+              </button>
+            </div>
 
-                <span class="flex items-center gap-2 lg:p-4">
-                  <img src="./assets/icons/note.png" alt="" class="w-7">
-                  <h1 class="font-bold lg:text-2xl">Menu</h1>
-                </span>
-
-                <span class="flex items-center gap-7 lg:hidden">
-                  <h3 class="text-sm">Pizzas</h3>
-                  <img src="./assets/icons/Clock.png" alt="" class="w-4">
-                </span>
-
+            <div>
+              <!-- Xtreme Pizza -->
+              <div class="mt-10 lg:w-137.5 space-y-3 p-5 border border-gray-300 shadow-2xl rounded-lg ">
+                <div class="flex justify-between">
+                  <div class="max-sm:grid grid-cols-1">
+                    <h2 class="font-bold">Farm House Xtreme Pizza</h2>
+                    <img src="./assets/images/pepe.png" alt="" />
+                    <p class="text-sm">
+                      1 McChicken™, 1 Big Mac™, 1 Royal <br> Cheeseburger, 3 medium
+                      sized French Fries , <br> 3 cold drinks
+                    </p>
+                  </div>
+                  <img src="./assets/images/farm pizza.png" alt="" / class="lg:w-32 max-sm:w-20 max-sm:h-16">
                 </div>
-                
-                
+                <!-- farm button -->
+                <div class="grid lg:grid-cols-3 grid-cols-2 gap-1 ">
+                  <button class="bg-[#03081F] px-4 py-2 rounded-lg text-white flex items-center gap-1 lg:gap-8 ">
+                    <span class="">Small</span>
+                    <span class="bg-[#028643] px-1 lg:px-3 lg:py-2 rounded-sm">£21.90</span>
+                  </button>
 
-                <div class="  max-sm:hidden  ">
-                  <ul class="space-y-5 px-4 text-[#282828] font-bold">
-                  <li class="bg-[#03081F] text-white p-2 ">Pizzas</li>
-                  <li>Garlic Bread</li>
-                  <li>Garlic Bread</li>
-                  <li>Garlic Bread</li>
-                  <li>Garlic Bread</li>
-                  <li>Garlic Bread</li>
-                  <li>Garlic Bread</li>
-                  <li>Garlic Bread</li>
-                  <li>Garlic Bread</li>
-                  <li>Garlic Bread</li>
-                  <li>Garlic Bread</li>
-                  </ul>
-                </div>
-                
+                  <button class="bg-[#0000001A] border border-gray-300 px-1  py-3 rounded-lg text-black flex items-center gap-1 lg:gap-6 ">
+                    <span class="">Medium</span>
+                    <span class="bg-[#028643] text-white lg:px-3 lg:py-2   rounded-sm">£25.90</span>
+                  </button> 
 
+                    <button class="bg-[#0000001A] border border-gray-300 px-3 py-2  rounded-lg text-black flex items-center gap-1 lg:gap-6">
+                    <span class="">Large</span>
+                    <span class="bg-[#028643] text-white lg:px-3 lg:py-2 px-1 rounded-sm">£27.90</span>
+                  </button><br class="lg:hidden">
 
-              </div>
-              <!-- end of side bar -->
-
-              <!-- middle bar -->
-               <div>
-
-                <div>
-                  <span>Pizzas</span>
-                  <button>
-                    <span>Sort by Pricing</span>
-                    <img src="./assets/icons/Clock.png" alt="" class="w-12">
+                  <button class="bg-[#0000001A] border border-gray-300 p-1 w-64 rounded-lg text-black flex items-center gap-5">
+                    <span class="">XL Large with Sauces</span>
+                    <span class="bg-[#028643] text-white px-2  lg:py-2  rounded-sm">£32.90</span>
                   </button>
                 </div>
-               </div>
-               <!-- end of middle bar -->
+              </div>
 
-               <!-- last bar -->
-                <div>
+            </div>
 
-                 <div class=" bg-[#FC8A06] mb-4  rounded-r-lg w-60 p-1">
-                  <span class="flex gap-1 items-center">
-                    <img src="./assets/icons/Clock.png" alt="">
-                    <b>Open until 3:00 AM</b>
-                  </span>
-                </div>
-                </div>
+          </div>
+          <!-- end of middle bar -->
 
-             </div>
-          </section>
-
-
-        
+          <!-- last bar -->
+          <div>
+            <div class="bg-[#FC8A06] mb-4 rounded-r-lg w-60 p-7 max-sm:hidden">
+              <span class="flex gap-1 items-center">
+                <img src="./assets/icons/Clock.png" alt="" />
+                <b>Open until 3:00 AM</b>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-     <footer class="bg-[#D9D9D9] w-full mt-96">
-  <!-- Top Section -->
-  <div
-    class="grid grid-cols-1 lg:grid-cols-3 gap-10 px-5 py-10 lg:px-16 lg:py-16"
-  >
-    <!-- Logo Section -->
-    <div class="space-y-5">
-      <img
-        src="./assets/images/oder-footer-logo.png"
-        alt="Footer Logo"
-        class="w-40 sm:w-52"
-      />
-
-      <img
-        src="./assets/images/app-store-badges-en 1.png"
-        alt="App Store"
-        class="w-40 sm:w-52"
-      />
-
-      <p class="text-sm lg:text-[16px] leading-6">
-        Company # 490039-445, Registered with House of companies.
-      </p>
-    </div>
-
-    <!-- Newsletter Section -->
-    <div class="space-y-4 max-w-md">
-      <h3 class="font-bold text-lg">
-        Get Exclusive Deals in your Inbox
-      </h3>
-
+    <footer class="bg-[#D9D9D9] w-full mt-96">
+      <!-- Top Section -->
       <div
-        class="bg-white border border-gray-300 rounded-full p-1 flex items-center justify-between overflow-hidden"
+        class="grid grid-cols-1 lg:grid-cols-3 gap-10 px-5 py-10 lg:px-16 lg:py-16"
       >
-        <input
-          type="email"
-          placeholder="youremail@gmail.com"
-          class="bg-transparent outline-none text-sm px-3 w-full"
-        />
+        <!-- Logo Section -->
+        <div class="space-y-5">
+          <img
+            src="./assets/images/oder-footer-logo.png"
+            alt="Footer Logo"
+            class="w-40 sm:w-52"
+          />
 
-        <button
-          class="bg-[#FC8A06] text-white rounded-full px-4 py-2 text-sm whitespace-nowrap"
+          <img
+            src="./assets/images/app-store-badges-en 1.png"
+            alt="App Store"
+            class="w-40 sm:w-52"
+          />
+
+          <p class="text-sm lg:text-[16px] leading-6">
+            Company # 490039-445, Registered with House of companies.
+          </p>
+        </div>
+
+        <!-- Newsletter Section -->
+        <div class="space-y-4 max-w-md">
+          <h3 class="font-bold text-lg">Get Exclusive Deals in your Inbox</h3>
+
+          <div
+            class="bg-white border border-gray-300 rounded-full p-1 flex items-center justify-between overflow-hidden"
+          >
+            <input
+              type="email"
+              placeholder="youremail@gmail.com"
+              class="bg-transparent outline-none text-sm px-3 w-full"
+            />
+
+            <button
+              class="bg-[#FC8A06] text-white rounded-full px-4 py-2 text-sm whitespace-nowrap"
+            >
+              Subscribe
+            </button>
+          </div>
+
+          <p class="text-xs leading-5">
+            We won’t spam, read our
+            <a href="#" class="underline">email policy</a>
+          </p>
+
+          <div class="flex items-center gap-4 text-lg">
+            <span><i class="fa-brands fa-facebook"></i></span>
+            <span><i class="fa-brands fa-instagram"></i></span>
+            <span><i class="fa-brands fa-tiktok"></i></span>
+            <span><i class="fa-brands fa-snapchat"></i></span>
+          </div>
+        </div>
+
+        <!-- Links Section -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+          <!-- Legal -->
+          <div class="space-y-3">
+            <h3 class="font-bold text-lg">Legal Pages</h3>
+
+            <ul class="space-y-2 text-sm lg:text-base">
+              <li>
+                <a href="#" class="hover:underline"> Terms and conditions </a>
+              </li>
+
+              <li>
+                <a href="#" class="hover:underline"> Privacy </a>
+              </li>
+
+              <li>
+                <a href="#" class="hover:underline"> Cookies </a>
+              </li>
+
+              <li>
+                <a href="#" class="hover:underline">
+                  Modern Slavery Statement
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Important Links -->
+          <div class="space-y-3">
+            <h3 class="font-bold text-lg">Important Links</h3>
+
+            <ul class="space-y-2 text-sm lg:text-base">
+              <li>
+                <a href="#" class="hover:underline"> Get help </a>
+              </li>
+
+              <li>
+                <a href="#" class="hover:underline"> Add your restaurant </a>
+              </li>
+
+              <li>
+                <a href="#" class="hover:underline"> Sign up to deliver </a>
+              </li>
+
+              <li>
+                <a href="#" class="hover:underline">
+                  Create a business account
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Section -->
+      <div class="bg-[#03081F] text-white">
+        <div
+          class="flex flex-col lg:flex-row justify-between items-center gap-5 px-5 py-6 lg:px-16"
         >
-          Subscribe
-        </button>
+          <p class="text-sm text-center lg:text-left">
+            Order.uk Copyright 2024, All Rights Reserved.
+          </p>
+
+          <ul
+            class="flex flex-col sm:flex-row items-center gap-4 sm:gap-8 text-sm text-center max-sm:hidden"
+          >
+            <li>Privacy Policy</li>
+            <li>Terms</li>
+            <li>Do not sell or share my personal information</li>
+          </ul>
+        </div>
       </div>
-
-      <p class="text-xs leading-5">
-        We won’t spam, read our
-        <a href="#" class="underline">email policy</a>
-      </p>
-
-      <div class="flex items-center gap-4 text-lg">
-        <span><i class="fa-brands fa-facebook"></i></span>
-        <span><i class="fa-brands fa-instagram"></i></span>
-        <span><i class="fa-brands fa-tiktok"></i></span>
-        <span><i class="fa-brands fa-snapchat"></i></span>
-      </div>
-    </div>
-
-    <!-- Links Section -->
-    <div
-      class="grid grid-cols-1 sm:grid-cols-2 gap-8"
-    >
-      <!-- Legal -->
-      <div class="space-y-3">
-        <h3 class="font-bold text-lg">Legal Pages</h3>
-
-        <ul class="space-y-2 text-sm lg:text-base">
-          <li>
-            <a href="#" class="hover:underline">
-              Terms and conditions
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="hover:underline">
-              Privacy
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="hover:underline">
-              Cookies
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="hover:underline">
-              Modern Slavery Statement
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <!-- Important Links -->
-      <div class="space-y-3">
-        <h3 class="font-bold text-lg">Important Links</h3>
-
-        <ul class="space-y-2 text-sm lg:text-base">
-          <li>
-            <a href="#" class="hover:underline">
-              Get help
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="hover:underline">
-              Add your restaurant
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="hover:underline">
-              Sign up to deliver
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="hover:underline">
-              Create a business account
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <!-- Bottom Section -->
-  <div class="bg-[#03081F] text-white">
-    <div
-      class="flex flex-col lg:flex-row justify-between items-center gap-5 px-5 py-6 lg:px-16"
-    >
-      <p class="text-sm text-center lg:text-left">
-        Order.uk Copyright 2024, All Rights Reserved.
-      </p>
-
-      <ul
-        class="flex flex-col sm:flex-row items-center gap-4 sm:gap-8 text-sm text-center max-sm:hidden"
-      >
-        <li>Privacy Policy</li>
-        <li>Terms</li>
-        <li>Do not sell or share my personal information</li>
-      </ul>
-    </div>
-  </div>
-</footer>
-</body>
+    </footer>
+  </body>
 </html>
